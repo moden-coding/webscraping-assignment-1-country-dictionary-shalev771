@@ -1,0 +1,11 @@
+[project]
+name = "countrydict"
+version = "0.1.0"
+description = "Scrape countries into a nested dictionary"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.28","beautifulsoup4>=4.12"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
